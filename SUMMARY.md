@@ -1,4 +1,37 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Welcome to the BenTo docs !](README.md)
+
+## Getting started
+
+* [History and philosophy of BenTo](getting-started/history-and-philosophy-of-bento.md)
+* [Overview of the ecosystem](getting-started/overview-of-the-ecosystem.md)
+
+## Software
+
+* [Interface](software/interface.md)
+* [Vocabulary](software/vocabulary.md)
+* [Props](software/props/README.md)
+  * [Flowtoys](software/props/flowtoys/README.md)
+    * [Flowtoys Creator Club](software/props/flowtoys/flowtoys-creator-club.md)
+  * [Garnav](software/props/garnav/README.md)
+    * [SmartBall](software/props/garnav/smartball.md)
+  * [Lighttoys](software/props/lighttoys/README.md)
+    * [Lighttoys FT](software/props/lighttoys/lighttoys-ft.md)
+* [Light Blocks](software/light-blocks/README.md)
+  * [Generic](software/light-blocks/generic.md)
+  * [Live Feed](software/light-blocks/live-feed.md)
+  * [Pictures](software/light-blocks/pictures.md)
+  * [Nodes](software/light-blocks/nodes.md)
+  * [Scripts](software/light-blocks/scripts.md)
+  * [Timeline](software/light-blocks/timeline.md)
+* [The Spatializer](software/the-spatializer.md)
+* [The Node Editor](software/the-node-editor.md)
+* [The Timeline](software/the-timeline.md)
+
+## Firmware / Hardware
+
+* [Installation](firmware-hardware/installation.md)
+* [Firmware Components](firmware-hardware/firmware-components.md)
+* [Command API](firmware-hardware/command-api.md)
 

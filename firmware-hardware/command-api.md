@@ -47,6 +47,31 @@ To detect props on the network you send a broadcast message to the network with 
       <td style="text-align:left">Restart the prop.</td>
     </tr>
   </tbody>
+</table>## WIFI Configuration
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">OSC command</th>
+      <th style="text-align:left">Serial command</th>
+      <th style="text-align:left">Parameters</th>
+      <th style="text-align:left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>/wifi/setCredentials</b>
+      </td>
+      <td style="text-align:left"><b>wifi.setCredentials</b>
+      </td>
+      <td style="text-align:left">
+        <p><b>SSID</b>: string</p>
+        <p><b>password</b>: string</p>
+      </td>
+      <td style="text-align:left">Set the WIFI name (SSID) and password to which the prop should connect
+        to.</td>
+    </tr>
+  </tbody>
 </table>## RGB LED control
 
 <table>
@@ -135,5 +160,154 @@ To detect props on the network you send a broadcast message to the network with 
       <td style="text-align:left">Create a point with a color.</td>
     </tr>
   </tbody>
-</table>
+</table>## Player control
+
+These commands provide control over the sequences stored on the SD card of the prop.
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">OSC command</th>
+      <th style="text-align:left">Serial command</th>
+      <th style="text-align:left">Parameters</th>
+      <th style="text-align:left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>/player/load</b>
+      </td>
+      <td style="text-align:left"><b>player.load</b>
+      </td>
+      <td style="text-align:left"><b>name</b> of sequence: string</td>
+      <td style="text-align:left">Load the sequence with the given name.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>/player/play</b>
+      </td>
+      <td style="text-align:left"><b>player.play</b>
+      </td>
+      <td style="text-align:left"><b>start time</b> in seconds: float</td>
+      <td style="text-align:left">Start the loaded sequence at the start time given.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>/player/pause</b>
+      </td>
+      <td style="text-align:left"><b>player.pause</b>
+      </td>
+      <td style="text-align:left"><em>no parameter</em>
+      </td>
+      <td style="text-align:left">Pause the playing sequence.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>/player/resume</b>
+      </td>
+      <td style="text-align:left"><b>player.resume</b>
+      </td>
+      <td style="text-align:left"><em>no parameter</em>
+      </td>
+      <td style="text-align:left">Resume the paused sequence.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>/player/stop</b>
+      </td>
+      <td style="text-align:left"><b>player.stop</b>
+      </td>
+      <td style="text-align:left"><em>no parameter</em>
+      </td>
+      <td style="text-align:left">Stop the loaded sequence.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>/player/seek</b>
+      </td>
+      <td style="text-align:left"><b>player.seek</b>
+      </td>
+      <td style="text-align:left"><b>time</b> to seek in seconds: float</td>
+      <td style="text-align:left">Seek the given position of a sequence.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>/player/id</b>
+      </td>
+      <td style="text-align:left"><b>player.id</b>
+      </td>
+      <td style="text-align:left"><b>enabled</b>: boolean</td>
+      <td style="text-align:left">Show identification mode of sequence. A way to display/preview which prop
+        belongs to which cluster.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>/player/delete</b>
+      </td>
+      <td style="text-align:left"><b>player.delete</b>
+      </td>
+      <td style="text-align:left"><b>sequence name</b>: string</td>
+      <td style="text-align:left">
+        <p>Delete the sequence with the given name. This deletes the .colors and
+          .meta file of the sequence.
+          <br />
+        </p>
+        <p>Example to delete a sequence called &quot;timeline&quot;:</p>
+        <p><code>/player/delete /timeline</code>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>## Files
+
+These command provide control over the file on the SD card.
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">OSC command</th>
+      <th style="text-align:left">Serial command</th>
+      <th style="text-align:left">Parameters</th>
+      <th style="text-align:left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>/files/delete</b>
+      </td>
+      <td style="text-align:left"><b>files.delete</b>
+      </td>
+      <td style="text-align:left"><b>filepath</b>: string</td>
+      <td style="text-align:left">
+        <p>Delete the file with the given file path.</p>
+        <p></p>
+        <p>Example to delete the .colors file of the timeline sequence:</p>
+        <p><code>/files/delete /timeline.colors</code>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>/files/deleteFolder</b>
+      </td>
+      <td style="text-align:left"><b>files.deleteFolder</b>
+      </td>
+      <td style="text-align:left"><b>folderpath</b>: string</td>
+      <td style="text-align:left">Delete the folder with the given path.</td>
+    </tr>
+  </tbody>
+</table>## IMU
+
+These commands provide control over the sensor data of the IMU.
+
+| OSC command | Serial command | Parameters | Description |
+| :--- | :--- | :--- | :--- |
+| **/imu/enabled** | **imu.enabled** | **enable**: boolean | Enable sending of IMU values to the host computer. |
+| **/imu/updateRate** | **imu.updateRate** | **rate**: integer | Set the update rate at which the IMU data is sent to the host computer. |
+
+## OSC 
+
+| OSC command | Serial command | Parameters | Description |
+| :--- | :--- | :--- | :--- |
+| **/osc/enabled** | **osc.enabled** | **enable**: boolean | Enable OSC communication. |
+
+## Serial
+
+| OSC command | Serial command | Parameters | Description |
+| :--- | :--- | :--- | :--- |
+| /serial/outputEnabled | serial.outputEnabled | enable: boolean | Enable Serial output. |
+
+
 

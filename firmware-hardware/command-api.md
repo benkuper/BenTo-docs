@@ -1,14 +1,14 @@
 # Command API
 
-The command API defines a set of commands that can be sent to a prop via OSC or Serial connection. The structure of the commands is the same for both connection types.
+The command API defines a set of commands that can be sent to a prop via **OSC** or **Serial** connection. The structure of the commands is the same for both connection types.
 
 For example the following commands can be used to put the prop to sleep/shutdown:
 
 * OSC: /root/sleep 
 * Serial: root.sleep 
 
-The OSC messages are **sent to port 9000** of the prop. OSC feedback \(e.g. button press, orientation data\) from the prop is sent to port 10000 on the host machine.  
-For sending through serial connection you send a string. The baud rate for the serial connection is 115200.
+The **OSC messages** are **sent to port 9000** of the prop. **OSC feedback** \(e.g. button press, orientation data\) from the prop is sent to **port 10000** on the host machine.  
+For sending through serial connection you send a string. The **baud rate** for the serial connection is **115200**.
 
 ## Detecting props
 
@@ -16,7 +16,7 @@ To detect props on the network you send a broadcast message to the network with 
 
 | OSC Command | Serial Command | Description |
 | :--- | :--- | :--- |
-| /yo  | N/A | Broadcast message to all props. Request props to send a wassup message to communicate it's IP address. |
+| **/yo**  | N/A | Broadcast message to all props. Request props to send a wassup message to communicate it's IP address. |
 
 ## Power
 
@@ -30,16 +30,20 @@ To detect props on the network you send a broadcast message to the network with 
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">/root/sleep</td>
-      <td style="text-align:left">root.sleep</td>
+      <td style="text-align:left"><b>/root/sleep</b>
+      </td>
+      <td style="text-align:left"><b>root.sleep</b>
+      </td>
       <td style="text-align:left">
         <p>Put the prop to sleep.</p>
         <p>Shutdown the prop.</p>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">/root/restart</td>
-      <td style="text-align:left">root.restart</td>
+      <td style="text-align:left"><b>/root/restart</b>
+      </td>
+      <td style="text-align:left"><b>root.restart</b>
+      </td>
       <td style="text-align:left">Restart the prop.</td>
     </tr>
   </tbody>
@@ -58,7 +62,8 @@ To detect props on the network you send a broadcast message to the network with 
     <tr>
       <td style="text-align:left"><b>/leds/mode</b>
       </td>
-      <td style="text-align:left">leds.mode</td>
+      <td style="text-align:left"><b>leds.mode</b>
+      </td>
       <td style="text-align:left">
         <p>LED mode as string or int</p>
         <p>direct (0)</p>
@@ -72,14 +77,16 @@ To detect props on the network you send a broadcast message to the network with 
     <tr>
       <td style="text-align:left"><b>/rgb/brightness</b>
       </td>
-      <td style="text-align:left">rgb.brightness</td>
+      <td style="text-align:left"><b>rgb.brightness</b>
+      </td>
       <td style="text-align:left"><b>brightness</b>: float</td>
       <td style="text-align:left">Set the brightness of the RGB LEDs.</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>/rgb/fill</b>
       </td>
-      <td style="text-align:left">rgb.fill</td>
+      <td style="text-align:left"><b>rgb.fill</b>
+      </td>
       <td style="text-align:left">
         <p><b>red</b>: float</p>
         <p><b>green</b>: float</p>
@@ -95,7 +102,8 @@ To detect props on the network you send a broadcast message to the network with 
     <tr>
       <td style="text-align:left"><b>/rgb/range</b>
       </td>
-      <td style="text-align:left">rgb.range</td>
+      <td style="text-align:left"><b>rgb.range</b>
+      </td>
       <td style="text-align:left">
         <p><b>red</b>: float</p>
         <p><b>green</b>: float</p>
@@ -114,7 +122,8 @@ To detect props on the network you send a broadcast message to the network with 
     <tr>
       <td style="text-align:left"><b>/rgb/point</b>
       </td>
-      <td style="text-align:left">rgb.point</td>
+      <td style="text-align:left"><b>rgb.point</b>
+      </td>
       <td style="text-align:left">
         <p><b>red</b>: float</p>
         <p><b>green</b>: float</p>
@@ -127,3 +136,4 @@ To detect props on the network you send a broadcast message to the network with 
     </tr>
   </tbody>
 </table>
+

@@ -20,6 +20,12 @@ Try to play a bit with the parameters of the light blocks. It's quite intuitive 
 
 The props panel displays a list of props that you can output your light blocks to. Each prop has a unique prop ID and a representation of the output is displayed. You can can create your props manually by clicking on the green plus icon or detecting props automatically by pressing "Detect Props".
 
+You can assign a light block to a prop in the follow ways:
+
+* Drag and Drop light block on the prop
+* Right click on light block and select "Assign to All" or select a specific prop
+* Hold the "Alt"-Key \(Option-Key on Mac\) while clicking on the light block
+
 ## 3. Timeline
 
 To be able to edit something in the timeline \(sequence editor\) you need to create a timeline light block. You can use the green plus icon next to "Timeline" in the Light Blocks panel.

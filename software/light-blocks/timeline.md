@@ -47,7 +47,7 @@ After creating the keyframes, right-click on the light block and select "Clear a
 
 ### Targeting a prop
 
-
+The layers are blended and selected on different rules. The blend mode can be defined in the layer properties in the inspector panel. The standard blend mode is "Add". 
 
 
 

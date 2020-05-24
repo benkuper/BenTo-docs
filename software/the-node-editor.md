@@ -1,4 +1,4 @@
 # The Node Editor
 
-[See documentation of Node light blocks.](light-blocks/nodes.md)
+[See documentation of Node light block.](light-blocks/nodes.md)
 

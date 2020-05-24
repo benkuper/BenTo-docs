@@ -19,7 +19,7 @@ You can use the following nodes to create and combine color effects:
 * **Model**: Load a light block as an input
 * **Composite**: Combine two colors inputs \(e.g. from two different models\) using different blend modes.
 * **Position Remap**: Reposition the effect
-* **Color Remap**: Replaces color values from the input based on brightness, hue or saturation onto a gradient
+* **Color Remap**: Replaces color values from the input based on brightness, hue or saturation by colors from a gradient
 
 You can use the following nodes to create parameters that can be controlled from the inspector or inside of the timeline and be used as input for the other nodes.
 

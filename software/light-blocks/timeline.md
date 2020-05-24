@@ -13,7 +13,7 @@ A timeline can consists of several layers. The block layers can contain light bl
 {% hint style="success" %}
 **SHORTCUTS AND NAVIGATION  
 - Drag the blue bar horizontal / vertical :** Zoom in/out and change the time focus frame  
-**-  Right click on the blue bar :** Reset the view to a full view of the whole sequence  
+**- Right click on the blue bar :** Reset the view to a full view of the whole sequence  
 **- Ctrl + C, Ctrl + V, Ctrl + D :** Copy, paste, duplicate items \(This applies to blocks and layers. When pasting layers make sure to select the timeline panel\)
 {% endhint %}
 

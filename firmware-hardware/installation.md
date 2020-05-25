@@ -2,7 +2,7 @@
 
 ## Flashing the Props
 
-Bento can upload the firmware to your props. At the moment it uses the Arduino IDE in the background to do the flashing. 
+You can use Bento upload the firmware to your props. At the moment it uses the Arduino IDE in the background to do the flashing. 
 
 ### **Preparation steps**
 

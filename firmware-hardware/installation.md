@@ -18,7 +18,7 @@ You can use Bento upload the firmware to your props. At the moment it uses the A
 ### **Flashing the firmware**
 
 * **Create a prop** by clicking on the green plus icon in the prop panel, select your prop type \(e.g. Flowtoys Creator Club\) .
-* Select the prop by clicking on the prop. The inspector will display it's parameters.
+* Select the prop by clicking on the prop. The inspector will display its parameters.
 * In the container "Connection" **select the Serial Device** related to your prop.
 
 ![](../.gitbook/assets/bento-connection.png)

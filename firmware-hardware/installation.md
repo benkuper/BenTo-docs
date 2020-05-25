@@ -33,7 +33,7 @@ You can use Bento upload the firmware to your props. At the moment it uses the A
 
 ![](../.gitbook/assets/bento-flashing.png)
 
-## Configuring the WiFi
+## Configuring WiFi
 
 * **Connect your props via Serial** \(USB\) connection
 * **Create props** in the props panel and **select the correct Serial device** in the "Connections" container of the inspector

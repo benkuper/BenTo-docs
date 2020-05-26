@@ -22,7 +22,8 @@
   * [Timeline](software/light-blocks/timeline.md)
 * [The Spatializer](software/the-spatializer.md)
 * [The Node Editor](software/the-node-editor.md)
-* [The Timeline](software/the-timeline.md)
+* [The Timeline Editor](software/the-timeline.md)
+* [Scripting](software/scripting.md)
 
 ## Firmware / Hardware
 

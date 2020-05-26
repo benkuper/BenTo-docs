@@ -35,7 +35,7 @@ The light blocks will display a visual representation of the output.
 
 ### Animating parameters
 
-You can animate parameters of the light blocks by right-clicking on the light block and selecting "Edit" and the respective parameter. This will enable a curve automation where you can add keyframes by double-clicking. You can change the interpolation between keyframes by clicking the line between two keyframes.
+You can animate parameters of the light blocks by **right-clicking** on the light block and selecting "**Edit**" and the respective parameter. This will enable a curve automation where you can **add keyframes by double-clicking**. You can change the interpolation between keyframes by clicking the line between two keyframes.
 
 ![](../.gitbook/assets/bento-timeline-parameter-animation.png)
 

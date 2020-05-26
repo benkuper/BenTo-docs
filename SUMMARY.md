@@ -23,8 +23,8 @@
 * [The Spatializer](software/the-spatializer.md)
 * [The Node Editor](software/the-node-editor.md)
 * [The Sequence Editor](software/the-timeline.md)
-* [Scripting](software/scripting.md)
 * [Baking/uploading of sequences](software/baking-uploading-of-sequences.md)
+* [Scripting](software/scripting.md)
 
 ## Firmware / Hardware
 

@@ -24,6 +24,7 @@
 * [The Node Editor](software/the-node-editor.md)
 * [The Timeline Editor](software/the-timeline.md)
 * [Scripting](software/scripting.md)
+* [Baking/uploading of sequences](software/baking-uploading-of-sequences.md)
 
 ## Firmware / Hardware
 

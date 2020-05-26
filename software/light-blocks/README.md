@@ -9,6 +9,8 @@ Light blocks are the fundamental building blocks of Bento. These are the light e
 * \*\*\*\*[**Scripts**](scripts.md): You can write your own effects using JavaScript code.
 * \*\*\*\*[**Timeline**](timeline.md): You can arrange lights blocks in a timeline.
 
+![](../../.gitbook/assets/bento-blocks-panel.png)
+
 ## Parameters
 
 Each light block exposes different parameters that affect the output of colors. 

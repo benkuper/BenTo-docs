@@ -1,4 +1,4 @@
-# The Timeline Editor
+# The Sequence Editor
 
 ## Interface
 

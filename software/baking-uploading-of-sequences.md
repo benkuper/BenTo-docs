@@ -36,5 +36,28 @@ By default, the fps of the timeline is used as the bake frequency. If you want t
 
 ## How to play a baked sequence
 
+You can control playback of baked sequences from the UI of Bento or through the OSC and Serial [Command API](../firmware-hardware/command-api.md#player-control). 
+
+### Use Bento to control playback
+
+There is two ways to control the playback of a backed sequence inside of Bento. The first option is to use the "Show" Container in the prop panel parameters:
+
+* **Click on the Prop panel**, so that its parameters are displayed in the Inspector panel. 
+* You can input the **name of the sequence** to load into the **"Show filename"** parameter. 
+* Press the **"Load all"** Button, to load the sequence.
+* Press **"Play all"** to play the sequence on all props.
+
+![&quot;Show&quot; container of the Props panel parameters in the Inspector](../.gitbook/assets/bento-show-container.png)
+
+The second option is to use the timeline controls:
+
+* Make sure you have the **timeline block assigned to the props**. 
+* **Enable the Bake Mode toggle** in the Props panel
+  * This will switch the props from streaming mode into baked mode. The colors that you are seeing on the clubs are now coming from the SD card.
+* Now the **playhead of the Sequence Editor will control the time** of the baked sequence.
+* Don't forget to disable the "Bake Mode", when you want to live stream colors again!
+
+![Bake Mode Toggle](../.gitbook/assets/bento-bake-mode.png)
+
 
 

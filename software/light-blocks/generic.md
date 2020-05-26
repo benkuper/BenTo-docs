@@ -2,10 +2,10 @@
 
 The generic light blocks contain the most basic light effects:
 
-* Solid color: Displays one call on all LEDs
+* Solid color: Displays one color on all LEDs
 * Rainbow: Displays a rainbow effect
 * Strobe: Let's you strobes the LEDs in two colors
-* Noise: Create a noise pattern
+* Noise: Creates a noise pattern
 * Point: Displays a single point
 * Multipoint: Displays multiple points
 

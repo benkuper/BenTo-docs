@@ -34,5 +34,7 @@ Select the prop inside of the prop panels. The inspector will show its propertie
 By default, the fps of the timeline is used as the bake frequency. If you want to use a higher frequency you can manually set the bake frequency  here.
 {% endhint %}
 
+## How to play a baked sequence
+
 
 

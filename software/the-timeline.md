@@ -1,11 +1,5 @@
 # The Timeline Editor
 
-[See documentation of Timeline light block.](light-blocks/timeline.md)
-
-
-
-
-
 ## Interface
 
 When you have the timeline light block selected the inspector will display the parameters of the timeline. Here you can change e.g. the total time of the timeline and wether or not the sequence should loop.

@@ -1,6 +1,10 @@
 # Scripting
 
+Script light blocks enables to you to create custom effects by writing JavaScript code. You can create a new Script light block by clicking the green plus icon next to "Scripts" in the light blocks panel. Then you need to create a new text file in your filesystem. You then select the text file in the file path parameter. Now it's time to add some code to the file.
 
+{% hint style="success" %}
+_You can find some_ [_example script files on the Github page_](https://github.com/benkuper/BenTo) _of the Bento project._
+{% endhint %}
 
 ## Creating Parameters
 
@@ -113,7 +117,9 @@ Next, we create a function called updateColors. The JavaScript Runtime of Bento 
 * **time**: time reference in seconds as float \(for normal light blocks this is the time since system start, for light blocks inside a timeline it's the timeline's current time\)
 * **params**: object containing the parameters created through the script object
 
-_**Notice: In JavaScript the order of the parameters is relevant!**_
+{% hint style="warning" %}
+_**In JavaScript the order of the parameters is relevant!**_
+{% endhint %}
 
 Example code to create the updateColors function:
 
@@ -121,7 +127,7 @@ Example code to create the updateColors function:
    // actual code creating colors goes here  
 }`
 
-### _**Colours parameter object**_
+### **Colours parameter object**
 
 We can use the colours object passed to the updateColors function to output colors. For example, if we want to output all white LEDs we would use the following code:
 
@@ -135,7 +141,7 @@ function updateColors(colours, id, resolution, time, params) {
 
 We use a for loop to set the color for each LED. The colours.set method takes the index/position of the LED as the first argument and then uses 3 float values for the red, green, blue channel. 
 
-Methods that create and output colors:
+### Methods that create and output colors:
 
 * **colours.set**\(index, red, green, blue, alpha\): Set a single index/LED to the given RGB color
 * **colours.setHSV**\(index, hue, saturation, value\): Set a single index to the given HSV color
@@ -146,7 +152,7 @@ Methods that create and output colors:
 * **colours.gradient**\(rgbaArray, rgbaArray2, startPosition, endPosition\): Create a gradient from two RGB colors and fill the LEDs within the given startPosition and endPosition
 * **colours.gradientHSV**\(hsvArray, hsvArray2, startPosition, endPosition\): Create a gradient from two HSV colors and fill the LEDs within the given startPosition and endPosition
 
-Helper methods:
+### Helper methods:
 
 * **colours.lerpColor**\(color1, color2, interpolationPosition\): Calculate a linear interpolation between two colors based on a given float indicating the position
 * **colours.getHSV**\(color\): Get a HSV color representation for the given color

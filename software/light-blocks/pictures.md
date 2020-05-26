@@ -6,3 +6,9 @@ You can create a new pictures light block by clicking on the green icon next to 
 
 Try different pictures and try to understand why some pictures work better then others. Increase the saturation make those colors stronger.
 
+![Pictures Light Blocks](../../.gitbook/assets/bento-pictures-blocks.png)
+
+![Pictures Parameters in Inspector panel](../../.gitbook/assets/bento-pictures-inspector.png)
+
+
+

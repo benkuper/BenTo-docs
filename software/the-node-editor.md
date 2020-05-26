@@ -1,7 +1,5 @@
 # The Node Editor
 
-
-
 This is where you will output your result at the end. At top of panel you have a list with all node types. You can drag and drop them on to the free space below.
 
 The following picture illustrates a simple workflow:

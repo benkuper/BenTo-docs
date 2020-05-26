@@ -307,7 +307,7 @@ These commands provide control over the sensor data of the IMU.
 
 | OSC command | Serial command | Parameters | Description |
 | :--- | :--- | :--- | :--- |
-| /serial/outputEnabled | serial.outputEnabled | enable: boolean | Enable Serial output. |
+| **/serial/outputEnabled** | **serial.outputEnabled** | **enable**: boolean | Enable Serial output. |
 
 
 

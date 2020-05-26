@@ -45,6 +45,11 @@ If you want to control an additional parameter with an automation curve, again r
 
 After creating the keyframes, right-click on the light block and select "Clear automation editor". This will let you manipulate the light block in the usual way.
 
+{% hint style="info" %}
+Please read the following instruction on how parameters of light blocks are inherited and overriden in timelines:  
+[Inheritance / overriding of parameters](./#inheritance-overriding-of-parameter-values)
+{% endhint %}
+
 ### Targeting a prop
 
 The layers are blended and selected for props on different rules. The blend mode can be defined in the layer properties in the inspector panel. 

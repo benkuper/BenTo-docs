@@ -9,7 +9,7 @@ You can use Bento upload the firmware to your props. At the moment it uses the A
 * Download and **install the Arduino IDE** from [https://www.arduino.cc/en/main/software](https://www.arduino.cc/en/main/software)
 * [**Install the ESP32 board definition**](https://github.com/espressif/arduino-esp32#installation-instructions) ****
   * Start Arduino and open the Preferences window
-  * Enter the release links below into _Additional Board Manager URLs_ field. You can add multiple URLs, separating them with commas. Stable release link: [https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package\_esp32\_index.json](https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json)
+  * Copy the link below into the _Additional Board Manager URLs_ field.  [https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package\_esp32\_index.json](https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json)
   * Open Boards Manager from Tools &gt; Board menu and install _esp32_ platform.
 * **Download the firmware** for your prop
 
@@ -17,7 +17,14 @@ You can use Bento upload the firmware to your props. At the moment it uses the A
 
 ### **Flashing the firmware**
 
-* **Create a prop** by clicking on the green plus icon in the prop panel, select your prop type \(e.g. Flowtoys Creator Club\) .
+* **Create a prop** by clicking on the green plus icon in the "Props" panel, select your prop type \(e.g. Flowtoys Creator Club\).
+
+![Context menu when right clicking in the &quot;Props&quot; panel ](../.gitbook/assets/image.png)
+
+{% hint style="warning" %}
+If you don't see any props when right-clicking in the "Props" panel, you need to update the props at least once. In order to do this, go to the menu "File &gt; Update props definitions"
+{% endhint %}
+
 * Select the prop by clicking on the prop. The inspector will display its parameters.
 * In the container "Connection" **select the Serial Device** related to your prop.
 

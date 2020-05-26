@@ -28,3 +28,8 @@ You can use the following nodes to create parameters that can be controlled from
 * **Color**
 * **Boolean**
 
+{% hint style="info" %}
+Please read the following instruction on how parameters of light blocks are inherited and overriden in Nodes:  
+[Inheritance / overriding of parameters](./#inheritance-overriding-of-parameter-values)
+{% endhint %}
+

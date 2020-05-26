@@ -1,6 +1,6 @@
 # The Spatializer
 
-[Spout](https://spout.zeal.co/) is a protocol to share a live video feed between application on the same computer. It is integrated in many video software, e.g. Touchdesigner and Resolume.
+You can use the Video light block to receive a spout texture from a different application. [Spout](https://spout.zeal.co/) is a protocol to share a live video feed between application on the same computer. It is integrated in many video software, e.g. Touchdesigner and Resolume.
 
 If you have only one Spout source it will automatically be used. If you have more then one you first need to enter the texture name in the inspector. After that open the "Spatalizer" in the "View" menu. 
 

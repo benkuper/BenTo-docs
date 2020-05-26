@@ -27,9 +27,9 @@ You can fine tune details of the audio block by clicking on it. This will show i
 
 You can add light blocks to a block layer in the following ways:
 
-* Drag and Drop a light block from the light block panel onto the block layer.
-* Double-clicking on the block layer will create an empty block. You can then set a light block in it's inspector parameters.
-* Copy and Paste from other layers: Select light block, press Ctrl+C =&gt; select layer, press Ctrl+V
+* **Drag and Drop a light block** from the light block panel onto the block layer.
+* **Double-clicking on the block layer** will create an empty block. You can then set a light block in it's inspector parameters.
+* **Copy and Paste from other layers**: Select light block, press Ctrl+C =&gt; select layer, press Ctrl+V
 
 The light blocks will display a visual representation of the output.
 

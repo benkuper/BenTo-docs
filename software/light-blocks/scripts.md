@@ -8,5 +8,5 @@ More info in the [Scripting ](../scripting.md)section
 _You can find some_ [_example script files on the Github page_](https://github.com/benkuper/BenTo) _of the Bento project._
 {% endhint %}
 
-## 
+![Scripts Light Blocks](../../.gitbook/assets/bento-scripts.png)
 

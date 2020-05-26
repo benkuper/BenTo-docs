@@ -6,5 +6,5 @@ You can create a new timeline light block by clicking on the green plus icon nex
 
 When selecting a Timeline block, you will be able to edit in the [Timeline Editor](../the-timeline.md).
 
-
+![Timeline Light Blocks](../../.gitbook/assets/bento-timeline-blocks.png)
 

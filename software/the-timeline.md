@@ -19,7 +19,7 @@ A timeline can consist of several layers. The block layers can contain light blo
 
 ## Add a music file
 
-To add a music file click the green plus icon above the layers and select "Audio". Then double click on the  created audio layer and select an audio file from the file dialog.
+To add a music file click the **green plus icon** above the layers and select "**Audio**". Then **double click** on the created audio layer and select an audio file from the file dialog.
 
 You can fine tune details of the audio block by clicking on it. This will show it's parameters in the inspector panel. Additionally, you can move the block to change it's start time. You can also use the nudges at the beginning and end of the block to crop the music clip.
 

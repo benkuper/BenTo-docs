@@ -4,6 +4,10 @@
 
 You can use Bento upload the firmware to your props. At the moment it uses the Arduino IDE in the background to do the flashing. 
 
+{% hint style="warning" %}
+Flashing of props is currently **implemented for Windows and MacOS**, but not on Linux.
+{% endhint %}
+
 ### **Preparation steps**
 
 * Download and **install the Arduino IDE** from [https://www.arduino.cc/en/main/software](https://www.arduino.cc/en/main/software)

@@ -16,8 +16,12 @@ Flashing of props is currently **implemented for Windows and MacOS**, but not fo
   * Copy the link below into the _Additional Board Manager URLs_ field.  [https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package\_esp32\_index.json](https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json)
   * Open Boards Manager from Tools &gt; Board menu and install _esp32_ platform.
 * **Download the firmware** for your prop
-
   * e.g. firmware for Flowtoy creator clubs is available from the [Bento Github release page](https://github.com/benkuper/BenTo/releases)
+
+{% hint style="warning" %}
+You need to install the following serial driver \(usb\) to enable serial communication with your prop:   
+[https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+{% endhint %}
 
 ### **Flashing the firmware**
 

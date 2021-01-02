@@ -41,7 +41,7 @@ If you don't see any props when right-clicking in the "Props" panel, you need to
 * Repeat these steps for all props that you want to flash.
 * **Go to menu "File" =&gt; "Preferences"**, scroll down to the container called "Bento Settings" and "Flashing".
 * **Select the path to your Arduino IDE** by clicking on "Browse" next to the "ESP32 Path". Typical locations are:
-  * On Windows: C:\Program Files \(x86\)\Arduino
+  * On Windows: C:\Program Files \(x86\)\Arduino or C:/Users/myUsername/AppData/Local/Arduino15
   * On MacOS: /Users/myUsername/Library/Arduino15
 * **Select the path to the firmware** by clicking on "Browse" next to "Firmware" and select the firmware .bin file \(e.g. BentoFlowCreator.ino.bin\). Makes sure that the partitions .bin file is located in the same folder as the firmware \(e.g. BentoFlowCreator.ino.partitions.bin\)
 * **Click on "Flash Firmware"** to flash the props

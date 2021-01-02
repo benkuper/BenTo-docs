@@ -47,7 +47,9 @@ To detect props on the network you send a broadcast message to the network with 
       <td style="text-align:left">Restart the prop.</td>
     </tr>
   </tbody>
-</table>## WIFI Configuration
+</table>
+
+## WIFI Configuration
 
 <table>
   <thead>
@@ -72,7 +74,9 @@ To detect props on the network you send a broadcast message to the network with 
         to.</td>
     </tr>
   </tbody>
-</table>## RGB LED control
+</table>
+
+## RGB LED control
 
 <table>
   <thead>
@@ -160,7 +164,9 @@ To detect props on the network you send a broadcast message to the network with 
       <td style="text-align:left">Create a point with a color.</td>
     </tr>
   </tbody>
-</table>## Player control
+</table>
+
+## Player control
 
 These commands provide control over the sequences stored on the SD card of the prop.
 
@@ -251,7 +257,9 @@ These commands provide control over the sequences stored on the SD card of the p
       </td>
     </tr>
   </tbody>
-</table>## Files
+</table>
+
+## Files
 
 These command provide control over the file on the SD card.
 
@@ -288,7 +296,9 @@ These command provide control over the file on the SD card.
       <td style="text-align:left">Delete the folder with the given path.</td>
     </tr>
   </tbody>
-</table>## IMU
+</table>
+
+## IMU
 
 These commands provide control over the sensor data of the IMU.
 

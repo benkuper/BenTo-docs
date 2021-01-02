@@ -107,7 +107,9 @@ Here is a full reference of methods available on the script object:
       </td>
     </tr>
   </tbody>
-</table>## Create the updateColors function
+</table>
+
+## Create the updateColors function
 
 Next, we create a function called updateColors. The JavaScript Runtime of Bento will call this function for each prop whenever it needs to output colors from the script light block. It will also pass in the following parameters that can be used to create the actual colors:
 

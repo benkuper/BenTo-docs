@@ -1,15 +1,15 @@
-# Light Blocks
+# Introduction
 
 Light blocks are the fundamental building blocks of Bento. These are the light effects that you use to create your light show. There is different categories of Light Blocks:
 
 * [**Generic**](generic.md): Basic light effects.
-* [**Live Feed**](live-feed.md): Picks colors from a video feed based on a prop location on that video texture.
+* [**Live Feed**](live-feed/): Picks colors from a video feed based on a prop location on that video texture.
 * [**Pictures**](pictures.md): Uses colors from a picture.
 * [**Nodes**](nodes.md): Let's you compose light blocks to a new more complex light block.
 * [**Scripts**](scripts.md): You can write your own effects using JavaScript code.
 * [**Timeline**](timeline.md): You can arrange lights blocks in a timeline.
 
-![](../../.gitbook/assets/bento-blocks-panel.png)
+![](../.gitbook/assets/bento-blocks-panel.png)
 
 ## Parameters
 
@@ -23,7 +23,7 @@ You can create presets for each light block. The parameters shown at the top of 
 Notice how the values and parameter names that are different from the default values are highlighted with bold text. You can reset to the default value by right-clicking on the parameter and selecting "Reset value"
 {% endhint %}
 
-![](../../.gitbook/assets/bento-presets.png)
+![](../.gitbook/assets/bento-presets.png)
 
 ### Inheritance/overriding of parameter values
 

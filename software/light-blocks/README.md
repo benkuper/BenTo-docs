@@ -2,18 +2,18 @@
 
 Light blocks are the fundamental building blocks of Bento. These are the light effects that you use to create your light show. There is different categories of Light Blocks:
 
-* \*\*\*\*[**Generic**](generic.md): Basic light effects.
-* \*\*\*\*[**Live Feed**](live-feed.md): Picks colors from a video feed based on a prop location on that video texture.
-* \*\*\*\*[**Pictures**](pictures.md): Uses colors from a picture.
-* \*\*\*\*[**Nodes**](nodes.md): Let's you compose light blocks to a new more complex light block.
-* \*\*\*\*[**Scripts**](scripts.md): You can write your own effects using JavaScript code.
-* \*\*\*\*[**Timeline**](timeline.md): You can arrange lights blocks in a timeline.
+* [**Generic**](generic.md): Basic light effects.
+* [**Live Feed**](live-feed.md): Picks colors from a video feed based on a prop location on that video texture.
+* [**Pictures**](pictures.md): Uses colors from a picture.
+* [**Nodes**](nodes.md): Let's you compose light blocks to a new more complex light block.
+* [**Scripts**](scripts.md): You can write your own effects using JavaScript code.
+* [**Timeline**](timeline.md): You can arrange lights blocks in a timeline.
 
 ![](../../.gitbook/assets/bento-blocks-panel.png)
 
 ## Parameters
 
-Each light block exposes different parameters that affect the output of colors. 
+Each light block exposes different parameters that affect the output of colors.&#x20;
 
 ### Presets
 
@@ -27,10 +27,10 @@ Notice how the values and parameter names that are different from the default va
 
 ### Inheritance/overriding of parameter values
 
-An important thing to understand is what happens when you use a preset \(including the default preset\) in a timeline or node. Parameter values can be overridden locally where the timeline is used. The consequence of this is that parameters that are not overridden are directly taken from the preset. 
+An important thing to understand is what happens when you use a preset (including the default preset) in a timeline or node. Parameter values can be overridden locally where the timeline is used. The consequence of this is that parameters that are not overridden are directly taken from the preset.&#x20;
 
 {% hint style="danger" %}
-**If you change the preset it will change the output of your light block in the timeline and node!** 
+**If you change the preset it will change the output of your light block in the timeline and node!**&#x20;
 {% endhint %}
 
 {% hint style="info" %}
@@ -40,5 +40,4 @@ An important thing to understand is what happens when you use a preset \(includi
 * **Override all parameter values inside of the timeline or node**
 {% endhint %}
 
- ****
-
+&#x20;

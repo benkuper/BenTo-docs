@@ -60,6 +60,7 @@
 
 ## Advanced Topics
 
+* [Bento Remote: smartphone app](advanced-topics/bento-remote-smartphone-app.md)
 * [Firmware](firmware-hardware/firmware-components.md)
   * [Firmware Structure](advanced-topics/firmware-components/firmware-structure.md)
   * [Building and Adapting the Firmware](advanced-topics/firmware-components/building-and-adapting-the-firmware.md)

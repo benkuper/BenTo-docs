@@ -7,8 +7,8 @@
 * [History and philosophy of BenTo](getting-started/history-and-philosophy-of-bento.md)
 * [Installation](getting-started/installation.md)
 * [Installation](firmware-hardware/installation.md)
-* [Firmware upload](getting-started/firmware-upload.md)
 * [Setting up the WiFi](getting-started/setting-up-the-wifi.md)
+* [Firmware upload](getting-started/firmware-upload.md)
 * [Show colors](getting-started/show-colors.md)
 
 ## UI overview

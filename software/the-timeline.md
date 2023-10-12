@@ -45,7 +45,7 @@ After creating the keyframes, right-click on the light block and select "Clear a
 
 {% hint style="info" %}
 Please read the following instruction on how parameters of light blocks are inherited and overriden in timelines:\
-[Inheritance / overriding of parameters](../light-blocks/light-blocks.md#inheritance-overriding-of-parameter-values)
+[Inheritance / overriding of parameters](light-blocks/#inheritance-overriding-of-parameter-values)
 {% endhint %}
 
 ### Targeting a prop

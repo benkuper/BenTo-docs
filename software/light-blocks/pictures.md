@@ -10,5 +10,3 @@ Try different pictures and try to understand why some pictures work better then 
 
 ![Pictures Parameters in Inspector panel](../../.gitbook/assets/bento-pictures-inspector.png)
 
-
-

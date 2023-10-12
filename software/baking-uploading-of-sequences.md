@@ -37,7 +37,7 @@ By default, the fps of the timeline is used as the bake frequency. If you want t
 
 ## How to play a baked sequence
 
-You can control playback of baked sequences from the UI of Bento or through the OSC and Serial [Command API](../advanced-topics/firmware-components/command-api.md#player-control).&#x20;
+You can control playback of baked sequences from the UI of Bento or through the OSC and Serial [Command API](../firmware-hardware/command-api.md#player-control).&#x20;
 
 ### Use Bento to control playback
 

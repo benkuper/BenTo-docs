@@ -2,7 +2,7 @@
 
 The interface can look intimidating at first, but don't worry, it will quickly make sense as we break it down together. Here we go.
 
-![](../.gitbook/assets/bento-interface.png)
+![Bento UI panels](../.gitbook/assets/interface.gif)
 
 ### Global notes
 

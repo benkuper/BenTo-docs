@@ -13,8 +13,8 @@
 
 ## UI overview
 
-* [Interface](software/interface.md)
 * [Vocabulary](software/vocabulary.md)
+* [Interface](software/interface.md)
 * [Cheat Sheet (Shortcuts & UI tips)](ui-overview/cheat-sheet-shortcuts-and-ui-tips.md)
 
 ## Light Blocks

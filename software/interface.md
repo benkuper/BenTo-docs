@@ -1,46 +1,70 @@
 # Interface
 
-The interface can look intimidating at first, but don't worry, it will quickly make sense as we break it down together. Here we go.
+The interface can look intimidating at first, but don't worry, it will quickly make sense as we break it down together. Here we go!
 
 ![Bento UI panels](../.gitbook/assets/interface.gif)
 
-### Global notes
-
-The interface is based on a sub-framework called "Organic UI", which features a ShapeShifter mechanism.
-
-Basically, this means that you can change the panel layout as much as you like, and save different layouts depending on what you want to work on.
+{% hint style="info" %}
+The interface is based on a sub-framework called [Organic UI](https://github.com/benkuper/juce\_organicui), which features a ShapeShifter mechanism. Basically, this means that you can change the panel layout as much as you like, and save different layouts depending on what you want to work on.
+{% endhint %}
 
 ## 1. Light Blocks
 
-The light blocks panel shows the building blocks of a light show. Each block can be seen as a light effect, that can be assigned to a prop. When you click a light block two things happen: 1. the block visualizer (illustrated with no. 5) shows a preview of the light block and 2. the inspector (illustrated with no. 4) shows the parameter of the selected light block.
+The Light Blocks panel shows the building blocks of a light show. Each Block can be seen as a light effect, that can be assigned to a Prop. When you click a Light Block two things will happen: 1. the Block Visualizer (illustrated with No. 5) shows a preview of the Light Block and 2. the Inspector (illustrated with No. 4) displays the parameter of the selected Light Block.
 
-Try to play a bit with the parameters of the light blocks. It's quite intuitive and you can instantly see the result in the block visualizer.
+{% hint style="success" %}
+Try to play a bit with the parameters of the Light Blocks. It's quite intuitive and you can instantly see the result in the Block Visualizer.
+{% endhint %}
+
+{% hint style="info" %}
+For all the fine details about Light Blocks, please check the [Light Blocks](interface.md#1.-light-blocks) section.
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/blocks-panel (1).png" alt="" width="158"><figcaption><p>The light blocks panel displays the light building blocks.</p></figcaption></figure>
 
 ## 2. Props
 
-The props panel displays a list of props that you can output your light blocks to. Each prop has a unique prop ID and a representation of the output is displayed. You can can create your props manually by clicking on the green plus icon or detecting props automatically by pressing "Detect Props".
+The Props panel displays a list of Props that you can output your Light Blocks to. Each Prop has a unique prop ID and a representation of the output (aka colors) is displayed. You can create your Props manually by clicking on the green plus icon or detecting Props automatically by pressing "Detect Props".
 
-You can assign a light block to a prop in the follow ways:
+You can assign a Light Block to a Prop in the following ways:
 
-* Drag and Drop light block on the prop
-* Right click on light block and select "Assign to All" or select a specific prop
-* Hold the "Alt"-Key (Option-Key on Mac) while clicking on the light block
+* Drag and Drop a Light Block on the Prop
+* Right-click on a Light Block and select "Assign to all" or select a specific Prop
+* Hold the "Alt"-Key (Option-Key on Mac) while clicking on the Light Block to assign to all Props
 
-## 3. Timeline
+<figure><img src="../.gitbook/assets/assign-block.gif" alt=""><figcaption><p>Assign to all Props by Right-click > "Assign to all".</p></figcaption></figure>
 
-To be able to edit something in the timeline (sequence editor) you need to create a timeline light block. You can use the green plus icon next to "Timeline" in the Light Blocks panel.
+<figure><img src="../.gitbook/assets/props-panel.gif" alt=""><figcaption><p>The Props panel will display a preview of the assigned Light Block.</p></figcaption></figure>
 
-In the timeline you can arrange light blocks in layers. You can also load music to create to light blocks that go with the music.
+## 3. Sequence Editor
+
+The Sequence Editor allows you to create fine-tuned and timed light sequences to music. To be able to edit something in the Sequence Editor you first need to create a Sequence Light Block. You can use the green plus icon next to "Sequences" in the Light Blocks panel.
+
+<figure><img src="../.gitbook/assets/create-sequence (1).gif" alt=""><figcaption><p>Create a Sequence by clicking the green plus icon next to Sequences</p></figcaption></figure>
+
+You can now Drag and Drop Light Blocks into Layers of the Sequence. Light Blocks can be blended into each other and the parameters of the Light Blocks can be animated with keyframes.&#x20;
+
+{% hint style="info" %}
+Want to learn how to create amazing light sequences? \
+Head over to the [Creating a Sequence](broken-reference) section!
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/sequence-editor-panel.png" alt="" width="375"><figcaption><p>The Sequence Editor panel can be used to create precisely timed light shows.</p></figcaption></figure>
 
 ## 4. Inspector
 
-The Inspector is your main editing panel, you'll spend a lot of time there ! Anything you can select in the software will be showed in detail in this panel. You can then edit all the properties of this item.\
-If you select another item, then the elements in this panel will change to show the newly selected item.
+The Inspector is your main editing panel, you'll spend a lot of time here! Everything that you select, will show its properties in this panel. You can then edit the parameters of this item.
+
+If you select another item, the parameters in this panel will change to show the newly selected item.
 
 ## 5. Visualizer
 
-The block visualizer displays a preview of the currently selected light block.
+The Block Visualizer displays a preview of the currently selected Light Block.
+
+<figure><img src="../.gitbook/assets/block-visualizer.gif" alt=""><figcaption><p>The Block Visualizer.</p></figcaption></figure>
 
 ## 6. Logger
 
 The Logger is your verbose friend. It will tell you if something went well or failed, as well as other useful information.&#x20;
+
+<figure><img src="../.gitbook/assets/logger-panel.png" alt="" width="116"><figcaption><p>The Logger panel.</p></figcaption></figure>

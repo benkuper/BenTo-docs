@@ -49,7 +49,7 @@ Want to learn how to create amazing light sequences? \
 Head over to the [Creating a Sequence](broken-reference) section!
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/sequence-editor-panel.png" alt="" width="375"><figcaption><p>The Sequence Editor panel can be used to create precisely timed light shows.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/sequence-editor-panel.png" alt="" width="375"><figcaption><p>The Sequence Editor panel can be used to create precisely timed light sequences.</p></figcaption></figure>
 
 ## 4. Inspector
 

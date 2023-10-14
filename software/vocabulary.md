@@ -1,6 +1,6 @@
 # Vocabulary
 
-Through out this documentation and the Bento software we will be using a lot of words, let's make sure you know what we are talking about!
+Through out this documentation and the Bento software we will be using a lot of terms, let's make sure you know what we are talking about!
 
 * Light Block (or short Block)
 * Prop

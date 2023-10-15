@@ -1,47 +1,39 @@
-# Cheat Sheet (Shortcuts & UI tips)
-
 ---
 description: >-
-  This page will try as hard as it can to show you all the hidden gems of
-  Bento, hopefully making you a superpowered Bento user !
+  This page will try as hard as it can to show you all the hidden gems of Bento,
+  hopefully making you a superpowered Bento user !
 ---
 
-# The Ultimate Cheat Sheet
+# Cheat Sheet (Shortcuts & UI tips)
 
-## Editing Parameters
+### Editing Parameters
 
-Generally in the software, trying to right click and see if there are more options is a good idea.\
-For example, right clicking on a parameter in the inspector allows you to have extended options about it. You can change its range (if allowed), send it to the Dashboard, copy its script or OSC control address...
+Generally in the software, trying to right-click and see if there are more options is a good idea.\
+For example, right clicking on a Parameter in the Inspector allows you to have extended options about it. You can change its range (if allowed), send it to the Dashboard, copy its script or OSC control address, etc.&#x20;
 
-![Right click on any parameter in the inspector to reveal a new world of possibilities !](.gitbook/assets/rightclick.gif)
+![Right-click on any parameter in the Inspector to reveal a new world of possibilities!](../.gitbook/assets/parameter-right-click.gif)
 
-## Common shortcuts
+### Common shortcuts
 
-| Shortcut                     | Description                                                                                                                                                                   |
-| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| (Ctrl or ⌘) + N              | Creates a new file                                                                                                                                                            |
-| (Ctrl or ⌘) + O              | Opens a file                                                                                                                                                                  |
-| (Ctrl or ⌘) + Shift + O      | Opens the last opened file                                                                                                                                                    |
-| (Ctrl or ⌘) + S              | Saves the current file                                                                                                                                                        |
-| (Ctrl or ⌘) + Shift + S      | Saves the current file as a new file (Save as...)                                                                                                                             |
-| (Ctrl or ⌘) + ;              | Edit Preferences (in the Inspector)                                                                                                                                           |
-| (Ctrl or ⌘) + ,              | Edit Project Settings (saved in the file)                                                                                                                                     |
-| (Ctrl or ⌘) + C              | Copies the current selection                                                                                                                                                  |
-| (Ctrl or ⌘) + V              | <p>Paste the current selection<br>This will only work when pasting items of the same type.</p>                                                                                |
-| (Ctrl or ⌘) + X              | Cuts the current selection                                                                                                                                                    |
-| (Ctrl or ⌘) + D              | Duplicates the current selection                                                                                                                                              |
-| Alt + O                      | <p>Import a LiLNut file and add all the content of this file to the existing one.</p><p>Content can be Modules, States, Custom Variables, <br>Module Router and Sequences</p> |
-| Alt + S                      | <p>Exports the current selection to a LilNut file.</p><p>Content can be Modules, States, Custom Variables,<br>Module Router and Sequences</p>                                 |
-| (Ctrl or ⌘) + Select an Item | Toggles an item's selection state                                                                                                                                             |
-| Shift + Select an Item       | Select all elements up to this one                                                                                                                                            |
+| Shortcut                     | Description                                                                                                                                                                  |
+| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| (Ctrl or ⌘) + N              | Creates a new file                                                                                                                                                           |
+| (Ctrl or ⌘) + O              | Opens a file                                                                                                                                                                 |
+| (Ctrl or ⌘) + Shift + O      | Opens the last opened file                                                                                                                                                   |
+| (Ctrl or ⌘) + S              | Saves the current file                                                                                                                                                       |
+| (Ctrl or ⌘) + Shift + S      | Saves the current file as a new file (Save as...)                                                                                                                            |
+| (Ctrl or ⌘) + ;              | Edit Preferences (in the Inspector)                                                                                                                                          |
+| (Ctrl or ⌘) + ,              | Edit Project Settings (saved in the file)                                                                                                                                    |
+| (Ctrl or ⌘) + C              | Copies the current selection                                                                                                                                                 |
+| (Ctrl or ⌘) + V              | <p>Paste the current selection<br>This will only work when pasting items of the same type.</p>                                                                               |
+| (Ctrl or ⌘) + X              | Cuts the current selection                                                                                                                                                   |
+| (Ctrl or ⌘) + D              | Duplicates the current selection                                                                                                                                             |
+| Alt + O                      | <p>Import a LiLNut file and add all the content of this file to the existing one.</p><p>Content can be Modules, States, Custom Variables,<br>Module Router and Sequences</p> |
+| Alt + S                      | <p>Exports the current selection to a LilNut file.</p><p>Content can be Modules, States, Custom Variables,<br>Module Router and Sequences</p>                                |
+| (Ctrl or ⌘) + Select an Item | Toggles an item's selection state                                                                                                                                            |
+| Shift + Select an Item       | Select all elements up to this one                                                                                                                                           |
 
-## Inspector shortcuts
-
-| Shortcut                            | Description               |
-| ----------------------------------- | ------------------------- |
-| Shift + Click on a Container header | Toggle children collapsed |
-
-![](.gitbook/assets/toggle.gif)
+### Inspector shortcuts
 
 | Shortcut                    | Description                           |
 | --------------------------- | ------------------------------------- |
@@ -49,65 +41,59 @@ For example, right clicking on a parameter in the inspector allows you to have e
 | Alt + Drag                  | Decreases the sensitivity of the drag |
 | Shift + Drag                | Increases the sensitivity of the drag |
 
+<figure><img src="../.gitbook/assets/parameter-change.gif" alt=""><figcaption><p>Changing parameters while holding down Alt or Shift will change the sensitivity.</p></figcaption></figure>
 
-## Sequence shortcuts
+### Sequence shortcuts
 
-### Sequence Manipulation
+#### Sequence Manipulation
 
-| Shortcut                                           | Description                                               |
-| -------------------------------------------------- | --------------------------------------------------------- |
-| <p>Drag the blue bar <br>horizontal / vertical</p> | <p></p><p>Zoom in/out and change the time focus frame</p> |
-| Right click on the blue bar                        | Reset the view to a full view of the whole sequence       |
+| Shortcut                                          | Description                                         |
+| ------------------------------------------------- | --------------------------------------------------- |
+| <p>Drag the blue bar<br>horizontal / vertical</p> | Zoom in/out and change the time focus frame         |
+| Right click on the blue bar                       | Reset the view to a full view of the whole sequence |
 
-![](.gitbook/assets/timemachine.gif)
+![Dragging the blue bar horizontal or vertical will change the zoom.](../.gitbook/assets/sequence-editor-zooming.gif)
 
 | Shortcut                                    | Description                                                                |
 | ------------------------------------------- | -------------------------------------------------------------------------- |
-| Right-click drag on the blue bar            | <p></p><p>Selective zoom on a part of the timeline (absolute)</p>          |
-| Right click drag on the numbers             | Selective zoom on a part of the timeline (relative)                        |
-| (Ctrl or ⌘) + Left click drag on the number | Show menu for adding/removing timespan                                     |
+| Right-click + Drag on the blue bar          | Selective zoom on a part of the timeline (absolute)                        |
+| Right-click + Drag on the numbers           | Selective zoom on a part of the timeline (relative)                        |
+| (Ctrl or ⌘) + Left-click drag on the number | Show menu for adding/removing timespan                                     |
 | Shift + drag the time needle                | Snap the time to timeline elements (cues, triggers, other mapping keys...) |
 
-![](.gitbook/assets/timespan.gif)
+![Right-click + Drag on numbers will zoom to this part.](../.gitbook/assets/sequence-editor-zooming2.gif)
 
 | Shortcut                             | Description                                                                |
 | ------------------------------------ | -------------------------------------------------------------------------- |
 | Double-click on the timeline numbers | Create a Time Cue                                                          |
 | Shift + drag a cue                   | Move the trigger with snapping (time bar, triggers, other mapping keys...) |
 
+![Double-click on Time numbers.](../.gitbook/assets/create-cues.gif)
 
-
-![](.gitbook/assets/cues.gif)
-
-### Parameter Automation (Keyframe Editing)
+#### Parameter Automation (Keyframe Editing)
 
 | Shortcut                     | Description                                                                                                                   |
 | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| Double click  on empty space | Create a new key at that position                                                                                             |
-| Double click on curve        | <p>Adds a point, <br>keeping the overall shape intact</p>                                                                     |
+| Double click on empty space  | Create a new key at that position                                                                                             |
+| Double click on curve        | <p>Adds a point,<br>keeping the overall shape intact</p>                                                                      |
 | Shift + drag a key           | Keep key's value, only move position                                                                                          |
 | Alt + drag a key             | Keep key's position, only move value                                                                                          |
 | Shift + Alt + drag a key     | Keep key's value, only move position with snapping on other layers elements (time bar, cues, triggers, other mapping keys...) |
 | (Ctrl or ⌘) + click on curve | Change the curve easing type                                                                                                  |
 | (Ctrl or ⌘) + shift + drag   | Manually draw the curve                                                                                                       |
 
-![](<.gitbook/assets/draw .gif>)
+![Editing keyframes in the Sequence Editor.](../.gitbook/assets/sequence-keyframes.gif)
 
-
-## Launching from terminal / CLI
+### Launching from terminal / CLI
 
 `./Bento [-r] [-f file] [-headless] [-forceGL / -forceNoGL] [<file>]`
 
-`-r` reset preferences&#x20;
+`-r` reset preferences
 
-`-f` open file (works also by adding the file name at the end without -f)&#x20;
+`-f` open file (works also by adding the file name at the end without -f)
 
-`-headless` run without gui (no window)&#x20;
+`-headless` run without gui (no window)
 
 `-forceGL / -forceNoGL` force setting the "use opengl renderer" value, to use 3d acceleration or not (forceNoGL can be handy when having problem with graphics drivers)
-
-| Shortcut                     | Description                                                 |
-| ---------------------------- | ----------------------------------------------------------- |
-| Click on the activity arrows | Toggles Log Incoming / Log Outgoing options for this module |
 
 ![](.gitbook/assets/logInOut.gif)

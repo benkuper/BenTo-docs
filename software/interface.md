@@ -40,7 +40,7 @@ You can assign a Light Block to a Prop in the following ways:
 
 The Sequence Editor allows you to create fine-tuned and timed light sequences to music. To be able to edit something in the Sequence Editor you first need to create a Sequence Light Block. You can use the green plus icon next to "Sequences" in the Light Blocks panel.
 
-<figure><img src="../.gitbook/assets/create-sequence (1).gif" alt=""><figcaption><p>Create a Sequence by clicking the green plus icon next to Sequences</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/create-sequence (1).gif" alt=""><figcaption><p>Create a Sequence by clicking the green plus icon next to Sequences.</p></figcaption></figure>
 
 You can now Drag and Drop Light Blocks into Layers of the Sequence. Light Blocks can be blended into each other and the parameters of the Light Blocks can be animated with keyframes.&#x20;
 
@@ -68,3 +68,27 @@ The Block Visualizer displays a preview of the currently selected Light Block.
 The Logger is your verbose friend. It will tell you if something went well or failed, as well as other useful information.&#x20;
 
 <figure><img src="../.gitbook/assets/logger-panel.png" alt="" width="116"><figcaption><p>The Logger panel.</p></figcaption></figure>
+
+## 7. Node Editor
+
+The Node Editor can be used to create new Light Blocks that combine, remap or composite several Light Blocks into one. You can create a new Node Light Block by pressing the green plus icon next to "Nodes" in the Light Block panel.
+
+<figure><img src="../.gitbook/assets/create-node.gif" alt=""><figcaption><p>Create a Node by clicking the green plus icon next to Nodes.</p></figcaption></figure>
+
+{% hint style="info" %}
+Want to learn how to create amazing new Light Blocks aka Nodes? \
+Head over to the [Creating with the Node Editor](broken-reference) section!
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/node-editor.gif" alt="" width="248"><figcaption><p>The Node Editor panel.</p></figcaption></figure>
+
+## 8. Firmware Uploader
+
+In the Firmware Uploader panel you can upload the firmware to your Props.
+
+{% hint style="info" %}
+The [Firmware upload](../getting-started/firmware-upload.md) section shows you in detail how to do it!
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/firmware-uploader.png" alt="" width="321"><figcaption><p>The Firmware Uploader panel.</p></figcaption></figure>
+

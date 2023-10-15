@@ -4,12 +4,12 @@ The primary way to communicate with your Bento Props is through WiFi. We strongl
 
 ## Choosing a WiFi Router
 
-The ESP32-based Bento Props only support WiFi on the 2.5 GHz frequency band. This means that the most simple, inexpensive WiFi Routers will work great. In fact, in our tests the more expensive dual or tri-band Routers, that also support the 5.0 GHz and 6.0 GHz frequency band, were  outperformed by the simple 2.5 GHz Routers.
+The ESP32-based Bento Props only support WiFi on the 2.4 GHz frequency band. This means that the most simple, inexpensive WiFi Routers will work great. In fact, in our tests the more expensive dual or tri-band Routers, that also support the 5.0 GHz and 6.0 GHz frequency band, were  outperformed by the simple 2.4 GHz Routers.
 
 The number of Props that you can connect to one WiFi Router depends on the model. A dedicated WiFi Router usually can connect 32 devices or more. If you need to connect more Props you need to distribute them on multiple WiFi Routers. For a small number of Props (usually up to 7) or testing it is also possible to just use you smartphones hotspot.&#x20;
 
 {% hint style="info" %}
-The TP-Link TL-MR3420 Router has proven to be a very reliable and inexpensive 2.5 GHz WiFi router.
+The TP-Link TL-MR3420 Router has proven to be a very reliable and inexpensive 2.4 GHz WiFi router.
 {% endhint %}
 
 ## Configuring the WiFi Router

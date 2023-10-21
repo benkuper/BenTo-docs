@@ -20,7 +20,7 @@ Try to play a bit with the parameters of the Light Blocks. It's quite intuitive 
 For all the fine details about Light Blocks, please check the [Light Blocks](interface.md#1.-light-blocks) section.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/blocks-panel (1).png" alt="" width="158"><figcaption><p>The light blocks panel displays the light building blocks.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/blocks-panel.png" alt="" width="158"><figcaption><p>The light blocks panel displays the light building blocks.</p></figcaption></figure>
 
 ## 2. Props
 

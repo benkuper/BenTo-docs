@@ -5,4 +5,4 @@ If you have found a bug, please report them at the Github repo issue tracker:\
 
 Please add a clear description of the bug, steps to reproduce and if possible upload files that demonstrate the problem in a reduced case.
 
-Plese be respectful and keep in mind that this project is shared with you as a free, open source software.
+Please be respectful and keep in mind that this project is shared with you as a free, open source software.

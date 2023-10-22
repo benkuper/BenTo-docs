@@ -35,8 +35,7 @@
 * [The Sequence Editor](software/the-timeline.md)
 * [Layer system + Blend Modes](creating-a-sequence/layer-system-+-blend-modes.md)
 * [Animating Parameters](creating-a-sequence/animating-parameters.md)
-* [Filtering](creating-a-sequence/filtering.md)
-* [ID Mode](creating-a-sequence/id-mode.md)
+* [Filtering, Clusters + ID Mode](creating-a-sequence/filtering.md)
 * [Streaming vs. Playback Mode](creating-a-sequence/streaming-vs.-playback-mode.md)
 * [Uploading a Sequence to Props](software/baking-uploading-of-sequences.md)
 

@@ -20,11 +20,11 @@ You can fine tune details of the audio block by clicking on it. This will show i
 
 You can add Light Blocks to a Block Layer in the following ways:
 
-* **Drag and Drop** a Light Block from the Blocks panel onto the block layer.
-* **Double-clicking on the Block Layer** will create an empty block. You can then set a Light Block in its inspector parameters.
-* **Copy and Paste from other layers**: Select light block, press Ctrl+C => select layer, press Ctrl+V
+* **Drag and Drop** a Light Block from the Blocks panel onto the Block Layer.
+* **Double-clicking on the Block Layer** will create an empty Block. You can then set a Light Block in its Inspector parameters.
+* **Copy and Paste from other layers**: Select Light Block, press Ctrl+C => select Layer, press Ctrl+V
 
-The light blocks will display a visual representation of the output.
+The Light Blocks will display a visual representation of the output.
 
 <figure><img src="../.gitbook/assets/sequence-add-blocks.gif" alt=""><figcaption><p>Adding a Noise Light Block with Drag and Drop.</p></figcaption></figure>
 
@@ -34,13 +34,13 @@ You can add a smooth fade-in or fade-out to each light block. Click the Light Bl
 
 <figure><img src="../.gitbook/assets/sequence-fade-out.gif" alt=""><figcaption><p>Add a Fade out.</p></figcaption></figure>
 
-After you have activated the Fade Out parameter, you can fine adjust the timing on the Light Block.
+After you have activated the "Fade Out" parameter, you can fine adjust the timing on the Light Block.
 
 <figure><img src="../.gitbook/assets/sequence-fade-out2.gif" alt=""><figcaption><p>Fine adjust the Fade Out on the Light Block.</p></figcaption></figure>
 
 ## Crossfade Blocks
 
-To crossfade between two Blocks you simply need to drag the Blocks toward each other. Make sure to disable the fade out on the first Light Block and the fade in on the second Light Block. You will see two blue lines that illustrate the crossfade.
+To crossfade between two Blocks you simply need to drag the Blocks towards each other. Make sure to disable the "Fade Out" on the first Light Block and the "Fade In" parameter on the second Light Block. You will see two blue lines that illustrate the crossfade.
 
 <figure><img src="../.gitbook/assets/sequence-crossfade.gif" alt=""><figcaption><p>Creating a crossfade between two Light Blocks.</p></figcaption></figure>
 

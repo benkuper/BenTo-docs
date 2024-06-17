@@ -1,2 +1,0 @@
-# Bento Remote: smartphone app
-

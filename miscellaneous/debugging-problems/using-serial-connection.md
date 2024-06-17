@@ -1,2 +1,0 @@
-# Using serial connection
-
